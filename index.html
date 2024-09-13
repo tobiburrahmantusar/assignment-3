@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/762679efb7.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
@@ -15,12 +16,32 @@
         }
     </style>
 </head>
-<body class="manrope-font">
+<body class="manrope-font bg-white">
     <!-- Header -->
-     <header>
+     <header class=" max-w-7xl pt-12 mx-auto">
         <!-- nav -->
-         <nav>
-
+         <nav class="flex items-center justify-between bg-white ">
+            <div class="flex items-center">
+                <div class="rounded-full bg-lime-400 p-3 m-2">
+                    <i class="fa-solid fa-square-arrow-up-right"></i>
+                </div>
+                <span class="text-2xl font-bold text-black">Rinterio</span>
+            </div>
+            <div class="space-x-6 hidden md:flex">
+                <a href="" class="text-gray-700 hover:text-black" >Home</a>
+                <a href="" class="text-gray-700 hover:text-black">Services</a>
+                <a href="" class="text-gray-700 hover:text-black">Portfolio</a>
+                <a href="" class="text-gray-700 hover:text-black">Blogs</a>
+                <a href="" class="text-gray-700 hover:text-black">Contact Us</a>
+            </div>
+            <div class="space-x-6 hidden md:flex">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button> <i class="fa-solid fa-cart-shopping"></i></button>
+                <div class="flex items-center">
+                    <div class="rounded-full bg-lime-400 p-3 m-2"><span class="text-black">Book Consult</span> <span class="ml-2"><i class="fa-solid fa-square-arrow-up-right"></i></span></div>
+                </div>
+            </div>
+            <div class="flex md:hidden mr-5"><i class="fa-solid fa-bars"></i></div>
          </nav>
          <!-- banner -->
           <div>
